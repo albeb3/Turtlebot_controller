@@ -14,7 +14,7 @@ This package is designed for **ROS Noetic** running on **Ubuntu 20.04** and is u
 
 ## 🔧 Setup
 
-### 1. Crea un workspace:
+### 1. Create a ROS workspace:
 
 ```bash
 mkdir -p ~/my_ros/src
@@ -34,16 +34,12 @@ source ~/.bashrc
 ### 3. Clone this repository 
 ```bash
 cd ~/my_ros/src
-```
-```bash
 git clone https://github.com/albeb3/Turtlebot_controller.git
 ```
 
 ### 4. Build the workspace
 ```bash
 cd ~/my_ros
-```
-```bash
 catkin_make
 ```
 
