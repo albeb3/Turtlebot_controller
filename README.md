@@ -1,4 +1,7 @@
  # 📦 turtlebot_controller
+ 
+ ![Demo GIF](gif/turtle_shapes.gif)
+
 
 ## 📖 Introduction
 
@@ -57,9 +60,9 @@ sudo apt install ros-noetic-turtlesim ros-noetic-actionlib
 ```
 ## 🚀 Usage
 
-To launch the package and run the nodes, use the following commands:
+To start the package and its nodes, use the following commands:
 
-1. Launch the package with a launch file:
+1. Run the launch file to start the package:
 
 ```bash
 roslaunch turtlebot_controller turtle_class.launch
