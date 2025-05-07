@@ -20,7 +20,7 @@ This package is designed for **ROS Noetic** running on **Ubuntu 20.04** and is u
 mkdir -p ~/my_ros/src
 cd ~/my_ros/
 catkin_make
-
+```
 ### 2. Source the workspace
 Add this line to your ~/.bashrc:
 source ~/my_ros/devel/setup.bash
@@ -45,7 +45,7 @@ If they are not installed, you can install them by running:
 
 ```bash
 sudo apt install ros-noetic-turtlesim ros-noetic-actionlib
-
+```
 ## 🚀 Usage
 
 To launch the package and run the nodes, use the following commands:
@@ -54,12 +54,12 @@ To launch the package and run the nodes, use the following commands:
 
 ```bash
 roslaunch turtlebot_controller turtle_class.launch
-
+```
 2. run the node:
 
 ```bash
 rosrun turtlebot_controller tutorial_draw_node 
-
+```
 ##✍️ Author
 Alberto Bono – alberto_bono@hotmail.it
 
