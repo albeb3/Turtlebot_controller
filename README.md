@@ -32,11 +32,20 @@ source ~/.bashrc
 ```
 
 ### 3. Clone this repository 
+```bash
 cd ~/my_ros/src
-git clone <REPO_URL>
+```
+```bash
+git clone https://github.com/albeb3/Turtlebot_controller.git
+```
+
 ### 4. Build the workspace
+```bash
 cd ~/my_ros
+```
+```bash
 catkin_make
+```
 
 ## 📦 Dependencies
 
