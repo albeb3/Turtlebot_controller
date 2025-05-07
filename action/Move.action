@@ -1,0 +1,8 @@
+string turtle_name
+string task_type
+float32 x
+float32 y
+---
+bool result
+---
+float32 error_theta
