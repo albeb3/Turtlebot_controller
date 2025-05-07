@@ -23,9 +23,13 @@ catkin_make
 ```
 ### 2. Source the workspace
 Add this line to your ~/.bashrc:
+```bash
 source ~/my_ros/devel/setup.bash
+```
 then apply it:
+```bash
 source ~/.bashrc
+```
 
 ### 3. Clone this repository 
 cd ~/my_ros/src
@@ -60,7 +64,7 @@ roslaunch turtlebot_controller turtle_class.launch
 ```bash
 rosrun turtlebot_controller tutorial_draw_node 
 ```
-##✍️ Author
+## ✍️ Author
 Alberto Bono – alberto_bono@hotmail.it
 
 > ⚠️ This project may include code or content generated with the assistance of AI tools (e.g., ChatGPT by OpenAI). All generated outputs have been reviewed and adapted by the author. If any part unintentionally infringes copyright, please contact me and I will promptly make the necessary corrections.
